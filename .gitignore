@@ -1,0 +1,6 @@
+# Ignore everything
+*
+# Whitelist
+!*.html
+!*.pdf
+!.gitignore
