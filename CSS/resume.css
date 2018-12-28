@@ -3,10 +3,28 @@
 	#name{
 		font-size: 40px;
 	}
+	h2{
+		text-align: center;
+	}
 }
 /* For medium and larger screens */
 @media screen and (min-width: 768px){
 	#name{
 		font-size: 60px;
 	}
+	#md-hr{
+		display: none;
+	}
+}
+/* For when printing */
+@media print {
+	#md-hr{
+		display: none !important;
+	}
+}
+h2{
+	font-size: 16px;
+}
+h3{
+	font-size: 20px;
 }
