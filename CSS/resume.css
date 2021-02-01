@@ -14,7 +14,7 @@ h3{
 	padding-right: 0px;
 }
 /* For small screens */
-@media screen and (max-width: 767.98px){
+@media screen and (max-width: 575.98px){
 	#name{
 		font-size: 40px;
 		text-align: center;
@@ -28,7 +28,7 @@ h3{
 }
 
 /* For medium and larger screens */
-@media screen and (min-width: 768px){
+@media screen and (min-width: 576px){
 	#name{
 		font-size: 60px;
 	}
@@ -39,12 +39,15 @@ h3{
 
 /* For when printing */
 @media print {
-	#name{
-		font-size: 60px;
+	#name {
+		font-size: 60px !important;
+	}
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+		font-size: 12pt !important;
 	}
 	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-        float: left;
-   }
+			float: left;
+	}
 	.col-md-12 {
 			width: 100%;
 	}
